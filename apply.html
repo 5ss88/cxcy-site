@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>项目申报 - 大学生创新创业成果展示网</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <div class="logo"><span>创</span></div>
+      <div class="brand-txt">
+        <h1>大学生创新创业成果展示网</h1>
+        <p>Innovation &amp; Entrepreneurship</p>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="">首页</a>
+      <a href="list.html" class="">成果展示</a>
+      <a href="list.html#news" class="">新闻公告</a>
+      <a href="apply.html" class="active">项目申报</a>
+      <a href="index.html#contact" class="">互动交流</a>
+      <a href="index.html#about" class="">关于我们</a>
+    </nav>
+    <div class="search">
+      <input type="text" placeholder="搜索项目 / 团队">
+      <div class="search-btn">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><circle cx="10.5" cy="10.5" r="6.5" stroke="#fff" stroke-width="2"/><path d="M16 16l5 5" stroke="#fff" stroke-width="2"/></svg>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <h2>项目申报</h2>
+    <p>集中受理期为每年 3 月与 9 月，材料初审 5 个工作日</p>
+  </div>
+</section>
+<main class="wrap">
+  <div class="crumb"><a href="index.html">首页</a> / 项目申报</div>
+  <div class="panel" style="padding:28px 30px">
+    <form id="applyForm">
+      <div class="form-grid">
+        <div class="field"><label>项目名称<i>*</i></label><input type="text" required data-label="项目名称" placeholder="不超过 30 个字"></div>
+        <div class="field"><label>申报类别<i>*</i></label>
+          <select required data-label="申报类别">
+            <option value="">请选择</option><option>创新项目</option><option>创业项目</option><option>竞赛培育</option>
+          </select>
+        </div>
+        <div class="field"><label>负责人姓名<i>*</i></label><input type="text" required data-label="负责人姓名"></div>
+        <div class="field"><label>所在学院 / 班级<i>*</i></label><input type="text" required data-label="所在学院"></div>
+        <div class="field"><label>联系电话<i>*</i></label><input type="text" id="contact" required data-label="联系电话" placeholder="11 位手机号"></div>
+        <div class="field"><label>团队成员</label><input type="text" placeholder="姓名之间用顿号分隔"></div>
+        <div class="field full"><label>项目简介<i>*</i></label><textarea required data-label="项目简介" placeholder="研究内容、已有基础、预期成果，200 字以内"></textarea></div>
+      </div>
+      <p class="form-tip">提交后可在“成果展示”栏目查看审核状态；材料不全会退回补正。</p>
+      <div class="form-acts">
+        <button type="submit" class="btn btn-main">提交申报</button>
+        <button type="reset" class="btn-line">重置</button>
+      </div>
+    </form>
+  </div>
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <h5>大学生创新创业成果展示网</h5>
+        <p>面向全校师生的创新创业成果展示与项目申报平台，集中呈现各学院的优秀项目、竞赛成果与创业典型。</p>
+      </div>
+      <div>
+        <h5>快速导航</h5>
+        <ul>
+          <li><a href="index.html">网站首页</a></li>
+          <li><a href="list.html">成果展示</a></li>
+          <li><a href="apply.html">项目申报</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>联系我们</h5>
+        <ul>
+          <li>创新创业学院（实训楼 305）</li>
+          <li>电话：0000-00000000</li>
+          <li>邮箱：cxcy@example.edu.cn</li>
+        </ul>
+      </div>
+      <div>
+        <h5>申报时间</h5>
+        <ul>
+          <li>每年 3 月、9 月集中受理</li>
+          <li>材料初审 5 个工作日</li>
+          <li>评审结果统一公示</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">版权所有 © 大学生创新创业成果展示网　｜　本站为网页设计综合实训教学演示站点</div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
